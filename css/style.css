@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 30px;
+
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+
+}
+
+#footer{
+    padding: 70px 0;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-logo{
+    width: 187px;
+    height: 60px;
+}
+.footer-subtitle{
+    font-family: Red Hat Text,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+
+    color: #555555;
+
+}
+.footer-title{
+    font-family: Red Hat Text, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #222222;
+
+}
+.footer-list{
+    margin: 20px 0;
+    font-family: Red Hat Text,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+
+    color: #555555;
+
+}
+
+.footer-email{
+    margin-top: 20px;
+}
+
+.footer-mail{
+    font-family: DM Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #222222;
+}
+.footer-items{
+    margin-top: 20px;
+}
+
+.footer-icons{
+    padding: 0 12px;
+    font-size: 30px;
+    color: #1D79E4;
+}
